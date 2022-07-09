@@ -202,7 +202,7 @@ footer{
     }
 
     nav ul{
-        padding-left: 4px;
+        padding: 0px 4px;
     }
     header h1{
         font-size: 32px;
@@ -240,18 +240,20 @@ footer{
     }
 }
 
-@media(max-width: 376px){
-    nav ul > li{
-        width: 57px;
+@media(max-width: 382px){
+
+    .li-comunidadeballerini-container{
+        width: 67px;
+        padding-left: 3px;
     }
     .li-tutorial-container{
-        width: 45px;
-    }
-    .li-comunidadeballerini-container{
-        width: 68px;
+        width: 43px;
     }
     .li-opensource-container{
-        width: 40px;
+        width: 37px;
+    }
+    .li-comandos-container{
+        width: 60px;
     }
 }
 
