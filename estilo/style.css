@@ -19,17 +19,52 @@ body{
     color: white;
 }
 
-header{
-    width: auto;
+nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-top: 1px solid #FFF2E7;  
+    width:  1245px;
+    margin: auto;
+}
+
+nav img{
+    width: 62px;
+    height: 62px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: #fccba2;
+}
+
+nav ul{
+    display: flex;
+    padding-left: 7px;
+}
+
+nav li{
+    font-size: 17px;
+    margin: 27px;
+}
+
+.header-line{
+    border-top: 1px solid #FFF2E7;
+}
+
+header{
+    max-width:  1245px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
     font-size: 24px;
     font-weight: 400;
     margin: auto;
-    padding: 18px 0px 18px 10px;
-
+    padding-left: 10px;
 }
 
 header h1{
@@ -72,38 +107,7 @@ div.nav-container{
     margin: auto;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width:  1245px;
-    margin: auto;
-}
 
-nav img{
-    width: 62px;
-    height: 62px;
-}
-
-nav a{
-    text-decoration: none;
-    color: white;
-}
-
-nav a:hover{
-    text-decoration: underline;
-    color: #fccba2;
-}
-
-nav ul{
-    display: flex;
-    padding-left: 7px;
-}
-
-nav li{
-    font-size: 17px;
-    margin: 27px;
-}
 
 main{
     height: 270px;
@@ -139,14 +143,7 @@ footer{
     padding: 40px;
 }
 
-@media(min-width: 1280px){
-
-   header{
-      padding: 0px 325px ;
-   }
-}
-
-@media(max-width: 1313px){
+@media(max-width: 960px){
     nav li{
         font-size: 15px;
         margin: 7px;
