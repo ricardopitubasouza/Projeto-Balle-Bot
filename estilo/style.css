@@ -241,16 +241,19 @@ footer{
 
     .li-comunidadeballerini-container{
         width: 67px;
-        padding-left: 3px;
+        padding: 1px;
     }
     .li-tutorial-container{
         width: 43px;
+        padding: 1px;
     }
     .li-opensource-container{
         width: 37px;
+        padding: 1px;
     }
     .li-comandos-container{
-        width: 60px;
+        width: 58px;
+        padding: 1px;
     }
 }
 
